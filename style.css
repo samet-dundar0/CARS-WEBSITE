@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Titillium Web", sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+}
+
+.btn{
+    font-weight: bold;
+    padding: 10px 15px;
+    color: black;
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    background-color: red;
+}
+
+h5{
+    color: white;
+    font-weight: bold;
+}
+
+/*NAVBAR*/
+
+.container{
+    padding: 0 8%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 19px;
+}
+
+nav ul li a{
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li a:hover{
+color: black;
+}
+
+/*CONTENT*/
+
+.row{
+display: flex;
+height: 80%;
+column-gap: 100px;
+align-items: center;
+
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+.col p{
+    color: white;
+    font-size: 16px;
+}
+
+.cards{
+    margin: 0 auto;
+}
+
+
+
+.card{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    cursor: pointer;
+    border:1px solid red;
+    position: relative;
+    transition: all .5s ease-in-out;
+    margin: 10px 20px 15px 0px;
+}
+
+.card:hover{
+transform: translateY(-10px);
+border: 1px solid grey;
+}
+
+.card .card-head{
+background-color: rgb(0,0,0,.5);
+ width: 180px;
+ border-radius: 10px;
+ padding: 4px;
+}
+
+ .card .card-head p{
+    font-size: 10px;
+}
+
+.card .card-btn{
+    position: absolute;
+    bottom: 10%;
+}
+
+.card1{
+    background-image:url(images/pic-1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card2{
+    background-image:url(images/pic-2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card3{
+    background-image:url(images/pic-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card4{
+    background-image:url(images/pic-4.png);
+    background-position: center;
+    background-size: cover;
+}
